@@ -1,0 +1,86 @@
+.null-table {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    background-color: #c23737;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    size: small;
+}
+.action-table {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    text-align: left;
+    background-color: #c23737;
+    border-radius: 30%;
+    display: inline-block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    size: small;
+}
+
+.roll-number {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(47, 189, 135);
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+   
+}
+.role-name {
+    display: inline-block;
+    margin: 5px;
+    padding: 3px 10px;
+    background: #f0f0f0;
+    color: #595959;
+    border-radius: 50px;
+    font-size: smaller;
+    font-weight: bold;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.teacher {
+    background: rgb(252, 146, 26); /* Green */
+    color: #f0f0f0;
+}
+
+.reviewer {
+    background: #40a35e; /* Yellow */
+    color: #f0f0f0;
+}
+
+.head-of-department {
+    background: rgb(26, 105, 252); /* Green */
+    color: #f0f0f0;
+}
+.centered-title {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-float-label .ant-form-item-label {
+    text-align: left;
+}
+.custom-form .ant-form-item-label {
+    text-align: left;
+    justify-content: flex-start; /* Align label to the start (left) */
+}
+
+
+

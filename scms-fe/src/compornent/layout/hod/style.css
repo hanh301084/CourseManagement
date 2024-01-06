@@ -1,0 +1,4 @@
+.ant-menu-light .ant-menu-item-selected {
+    background-color: rgb(255, 186, 97)!important;
+    color: white !important;
+  }

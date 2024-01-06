@@ -1,0 +1,13 @@
+.centered-title {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-float-label .ant-form-item-label {
+    text-align: left;
+}
+.custom-form .ant-form-item-label {
+  text-align: left;
+  justify-content: flex-start; /* Align label to the start (left) */
+}

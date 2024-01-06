@@ -1,0 +1,38 @@
+/* AppSidebar.css */
+
+/* Default styles */
+.sider-container {
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* Image size when scrolling */
+  .sider-logo {
+    max-width: 150px; /* Adjust the width as needed */
+    transition: max-width 0.3s ease;
+  }
+  
+  /* Image size when scrolling */
+  .sider-container.scrolled .sider-logo {
+    max-width: 100px; /* Adjust the smaller width as needed */
+  }
+  .ant-menu-light .ant-menu-item-selected {
+    background-color: rgb(255, 186, 97)!important;
+    color: white !important;
+  }
+
+  /* Normal state */
+.sider-logo {
+  width: 100%;
+  
+  margin-left: 15px;
+  transition: width 0.3s ease;
+}
+
+/* Collapsed state */
+.sider-logo-collapsed {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 70%; 
+  transition: width 0.3s ease;
+}
